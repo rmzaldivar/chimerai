@@ -1,9 +1,11 @@
-defmodule ChimeraiWeb.PageController do
+defmodule ChimeraiWeb.Controllers.PageController do
   use ChimeraiWeb, :controller
 
-  def home(conn, _params) do
-    # The home page is often custom made,
-    # so skip the default app layout.
-    render(conn, :home, layout: false)
+  # Renders the homepage with the search bar and initial display.
+  def index(conn, _params) do
+  end
+
+  # Renders the blog or website update page.
+  def blog(conn, _params) do
   end
 end

@@ -1,6 +1,7 @@
 defmodule ChimerMl.OnnxHandler do
   @moduledoc """
-  Handles ONNX models using Ortex library.
+  Provides functions to handle ONNX files, including loading, conversion, validation, and other related operations.
+  using Ortex library.
   """
 
   @doc """
